@@ -40,7 +40,7 @@ const routes = [
     path: '/Lock-2',
     component: () => import('pages/LockScreen-2.vue')
   }
-]
+];
 
 // Always leave this as last one
 if (process.env.MODE !== 'ssr') {
